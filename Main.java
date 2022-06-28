@@ -16,13 +16,17 @@ public class Main {
             case "violin":
                 playable = new Violin();
                 break;
+            case "flute":
+            playable = new Flute();
+            break;
+
         }
         play(playable);
     }
 
     public static void play(Playable playable) {
         playable.play();
-      
+    
         if (playable instanceof Football) {
             Football football = (Football) playable;
             football.kick();
