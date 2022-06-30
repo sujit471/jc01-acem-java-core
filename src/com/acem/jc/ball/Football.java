@@ -1,4 +1,6 @@
- public class Football extends Ball {
+package com.acem.jc.ball;
+
+public class Football extends Ball {
 
   public void play() {
     System.out.println("Playing a football");

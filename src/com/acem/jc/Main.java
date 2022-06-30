@@ -1,3 +1,10 @@
+package com.acem.jc;
+
+import com.acem.jc.ball.Basketball;
+import com.acem.jc.ball.Football;
+import com.acem.jc.musicalinstrument.Guitar;
+import com.acem.jc.musicalinstrument.Violin;
+
 public class Main {
     public static void main(String args[]) {
         String input = args[0];
@@ -16,9 +23,7 @@ public class Main {
             case "violin":
                 playable = new Violin();
                 break;
-            case "flute":
-            playable = new Flute();
-            break;
+           
 
         }
         play(playable);
